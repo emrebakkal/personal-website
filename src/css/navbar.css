@@ -1,0 +1,54 @@
+ul li {    
+    list-style: none;
+}
+
+
+ul {
+    position: sticky;
+    top: 0;
+    background: #27ae60;
+    width: 100%;
+    height: 57px;
+
+}
+
+#darkButton {
+    background: #27ae60;
+    margin: 5px;
+    color: white;
+    font-size: 19px;
+    padding: 10px;
+    transition: .4s;
+    float: left;
+    text-decoration: none;
+}
+
+#darkButton:hover {
+    background: #2ecc71;
+    color: white;
+}
+
+
+.link {
+    margin: 5px;
+    color: white;
+    font-size: 19px;
+    padding: 10px;
+    transition: .4s;
+    float: left;
+    text-decoration: none;
+}
+
+.link:hover {
+    background: #2ecc71;
+    color: white;
+    border-radius: 3px;
+}
+
+.active {
+    background: #2ecc71;
+    color: white;
+    border-radius: 3px;
+}
+
+
